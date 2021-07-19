@@ -34,13 +34,13 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function UserList() {
+export default function Users() {
   const classes = useStyles();
 
   const [users, setUsers] = useState([]);
   useEffect(() => {
     UsersGet()
-  })
+  }, [])
   
   const UsersGet = () => {
     fetch("https://www.mecallapi.com/api/users")

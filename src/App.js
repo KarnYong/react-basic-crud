@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Navbar from './components/Navbar'
-import Users from './components/Users'
-import UserCreate from './components/UserCreate'
-import UserUpdate from './components/UserUpdate'
+import Navbar from './Navbar'
+import Users from './Users'
+import UserCreate from './UserCreate'
+import UserUpdate from './UserUpdate'
 
 export default function App() {
   return (
